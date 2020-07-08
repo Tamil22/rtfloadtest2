@@ -22,3 +22,4 @@ val scn = scenario("My Scenario")
 
  setUp(scn.inject(atOnceUsers(1000000)).protocols(httpProtocol))
 }
+
